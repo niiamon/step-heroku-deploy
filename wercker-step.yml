@@ -1,3 +1,3 @@
-name: heroku-deploy
+name: heroku-deploy-build
 version: 2.2.1
-description: heroku-deploy step
+description: heroku-deploy-build step

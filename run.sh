@@ -208,6 +208,9 @@ use_new_git_repository() {
 
     local current_working_directory=$(pwd)
 
+    debug "this is the current directory"
+    ls -l $(pwd)
+
     # If there is a git repository, remove it because
     # we want to create a new git repository to push
     # to heroku.
